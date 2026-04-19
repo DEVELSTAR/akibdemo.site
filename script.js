@@ -145,14 +145,22 @@
      * Generate screenshot HTML - single image or slider
      */
     function createScreenshotHtml(projectName, imageData, isComingSoon, fallbackInitial) {
-        if (isComingSoon || !imageData) {
+        // Coming soon projects use the coming soon image
+        if (isComingSoon) {
+            return createSingleImage("coming soon.webp", projectName, fallbackInitial);
+        }
+
+        // No image data - show fallback initial
+        if (!imageData) {
             return `<span class="fallback-initial">${fallbackInitial}</span>`;
         }
 
+        // Multiple images - create slider
         if (Array.isArray(imageData)) {
             return createImageSlider(imageData, projectName);
         }
 
+        // Single image
         return createSingleImage(imageData, projectName, fallbackInitial);
     }
 
