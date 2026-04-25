@@ -18,20 +18,22 @@
         { name: "Sana Boutique", url: "https://boutique.akibdemo.site", category: "fashion", desc: "Fashion boutique website" },
         { name: "Roshni's Unisex Beauty Studio", url: "https://roshni.akibworks.in", category: "beauty", desc: "Beauty salon & spa website" },
         { name: "Gym Deck", url: "https://gymdeck.akibdemo.site", category: "fitness", desc: "Workout & fitness tracker" },
-        { name: "Task Manager", url: "https://task.akibdemo.site", category: "productivity", desc: "Organize tasks & to-dos" },
         { name: "Khan Welding Workshop", url: "https://atif.akibworks.in", category: "services", desc: "Welding workshop website" },
         { name: "Rakib Tailor", url: "https://rakib.akibdemo.site", category: "services", desc: "Tailoring & stitching services" },
         { name: "Punjabi Khaira Dhaba", url: "https://khaira.akibdemo.site", category: "food", desc: "Punjabi restaurant website" },
+        { name: "Healers Hospital", url: "https://hospital.akibdemo.site", category: "health", desc: "Hospital management system" },
         { name: "Beer Bar", url: "https://arborbrew.akibdemo.site", category: "food", desc: "Bar & pub menu website" },
         { name: "Plumber Swift Fix", url: "https://plumber.akibdemo.site", category: "services", desc: "Plumbing services website" },
+        { name: "Akib Portfolio", url: "https://portfolio.akibworks.in", category: "portfolio", desc: "Developer portfolio template" },
+        { name: "Neha Portfolio", url: "https://neha.akibdemo.site", category: "portfolio", desc: "Personal portfolio showcase" },
         { name: "Expense Tracker", url: "https://expense.akibworks.in", category: "finance", desc: "Track income & expenses" },
+        { name: "Task Manager", url: "https://task.akibdemo.site", category: "productivity", desc: "Organize tasks & to-dos" },
+        { name: "24/7 Manager", url: "https://24tracker.akibdemo.site/", category: "productivity", desc: "24/7 manager website" },
         { name: "Blog Web", url: "https://rails.akibdemo.site", category: "productivity", desc: "Simple blogging platform" },
         { name: "Recite Quran", url: "https://quran.akibworks.in", category: "religion", desc: "Quran reader with audio" },
         { name: "MCU Upcomings", url: "https://mcu.akibdemo.site", category: "movies", desc: "Marvel movie database" },
         { name: "Multicomics", url: "https://multicomics.akibdemo.site", category: "comics", desc: "Digital comics library" },
         { name: "Soccer Game", url: "https://soccer.akibdemo.site", category: "games", desc: "Football scores & fixtures" },
-        { name: "Akib Portfolio", url: "https://portfolio.akibworks.in", category: "portfolio", desc: "Developer portfolio template" },
-        { name: "Neha Portfolio", url: "https://neha.akibdemo.site", category: "portfolio", desc: "Personal portfolio showcase" },
 
         // Coming Soon Projects
         { name: "Smart Electrician", url: "#", category: "services", desc: "Electrician service website", comingSoon: true },
@@ -59,49 +61,34 @@
         { name: "Capture Moments", url: "#", category: "events", desc: "Photography portfolio", comingSoon: true }
     ];
 
-    /**
-     * IMAGE CONFIGURATION
-     * 
-     * To add a single image: "Project Name": "filename.webp"
-     * To add an image slider: "Project Name": ["file1.webp", "file2.webp", "file3.webp"]
-     * 
-     * Example - Single image:
-     * "Khan Welding Workshop": "Khan Welding Workshop.webp"
-     * 
-     * Example - Slider with 4 images:
-     * "Roshni's Unisex Beauty Studio": [
-     *     "Roshni's Unisex Beauty Studio.webp",
-     *     "Roshni1.webp",
-     *     "Roshni2.webp",
-     *     "Roshni3.webp"
-     * ]
-     */
     const projectImages = {
         // Single images
-        "Khan Welding Workshop": "Khan Welding Workshop.webp",
-        "Plumber Swift Fix": "Plumber Swift Fix.webp",
-        "Rakib Tailor": "Rakib Tailor.webp",
-        "Punjabi Khaira Dhaba": "Punjabi Khaira Dhaba.webp",
-        "Beer Bar": "Beer Bar.webp",
-        "Sana Boutique": "Sana Boutique.webp",
-        "Fashion Aurah": "Fashion Aurah.webp",
-        "Expense Tracker": "Expense Tracker.webp",
-        "Task Manager": "Task Manager.webp",
-        "Blog Web": "Blog Web.webp",
-        "Gym Deck": "Gym Deck.webp",
-        "Recite Quran": "Recite Quran.webp",
-        "MCU Upcomings": "MCU Upcomings.webp",
-        "Multicomics": "Multicomics.webp",
-        "Soccer Game": "Soccer Game.webp",
-        "Akib Portfolio": "Akib Portfolio.webp",
-        "Neha Portfolio": "Neha Portfolio.webp",
+        "Fashion Aurah": "fashion-aurah.webp",
+        "Sana Boutique": "sana-boutique.webp",
+        "Gym Deck": "gym-deck.webp",
+        "Khan Welding Workshop": "khan-welding-workshop.webp",
+        "Rakib Tailor": "rakib-tailor.webp",
+        "Punjabi Khaira Dhaba": "punjabi-khaira-dhaba.webp",
+        "Healers Hospital": "healers-hospital.webp",
+        "Beer Bar": "beer-bar.webp",
+        "Plumber Swift Fix": "plumber-swift-fix.webp",
+        "Akib Portfolio": "akib-portfolio.webp",
+        "Neha Portfolio": "neha-portfolio.webp",
+        "Expense Tracker": "expense-tracker.webp",
+        "Task Manager": "task-manager.webp",
+        "24/7 Manager": "247-manager.webp",
+        "Blog Web": "blog-web.webp",
+        "Recite Quran": "recite-quran.webp",
+        "MCU Upcomings": "mcu-upcomings.webp",
+        "Multicomics": "multicomics.webp",
+        "Soccer Game": "soccer-game.webp",
 
         // Image sliders (array of images)
         "Roshni's Unisex Beauty Studio": [
-            "Roshni's Unisex Beauty Studio.webp",
-            "Roshni1.webp",
-            "Roshni2.webp",
-            "Roshni3.webp"
+            "roshni-unisex-beauty-studio.webp",
+            "roshni-1.webp",
+            "roshni-2.webp",
+            "roshni-3.webp"
         ]
     };
 
@@ -147,7 +134,7 @@
     function createScreenshotHtml(projectName, imageData, isComingSoon, fallbackInitial) {
         // Coming soon projects use the coming soon image
         if (isComingSoon) {
-            return createSingleImage("coming soon.webp", projectName, fallbackInitial);
+            return createSingleImage("coming-soon.webp", projectName, fallbackInitial);
         }
 
         // No image data - show fallback initial
