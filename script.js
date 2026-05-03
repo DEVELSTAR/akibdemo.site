@@ -30,11 +30,6 @@
         { name: "Expense Tracker", url: "https://expense.akibworks.in", category: "finance", desc: "Track income & expenses" },
         { name: "Task Manager", url: "https://task.akibdemo.site", category: "productivity", desc: "Organize tasks & to-dos" },
         { name: "24/7 Manager", url: "https://24tracker.akibdemo.site/", category: "productivity", desc: "24/7 manager website" },
-        { name: "Blog Web", url: "https://rails.akibdemo.site", category: "productivity", desc: "Simple blogging platform" },
-        { name: "Recite Quran", url: "https://quran.akibworks.in", category: "religion", desc: "Quran reader with audio" },
-        { name: "MCU Upcomings", url: "https://mcu.akibdemo.site", category: "movies", desc: "Marvel movie database" },
-        { name: "Multicomics", url: "https://multicomics.akibdemo.site", category: "comics", desc: "Digital comics library" },
-        { name: "Soccer Game", url: "https://soccer.akibdemo.site", category: "games", desc: "Football scores & fixtures" },
 
         // Coming Soon Projects
         { name: "Smart Electrician", url: "#", category: "services", desc: "Electrician service website", comingSoon: true },
@@ -42,24 +37,24 @@
         { name: "Aqua RO Service", url: "#", category: "services", desc: "RO water purifier service", comingSoon: true },
         { name: "City Dental Clinic", url: "#", category: "health", desc: "Dental clinic website", comingSoon: true },
         { name: "PhysioCare Center", url: "#", category: "health", desc: "Physiotherapy services", comingSoon: true },
-        { name: "Diagnostic Lab Pro", url: "#", category: "health", desc: "Lab test booking website", comingSoon: true },
-        { name: "Bright Future Coaching", url: "#", category: "education", desc: "Coaching institute website", comingSoon: true },
-        { name: "Spoken English Hub", url: "#", category: "education", desc: "English training classes", comingSoon: true },
-        { name: "Computer Academy", url: "#", category: "education", desc: "Computer training center", comingSoon: true },
-        { name: "Dream Homes Realty", url: "#", category: "realestate", desc: "Property listing website", comingSoon: true },
-        { name: "Rental Connect", url: "#", category: "realestate", desc: "PG & rental listing", comingSoon: true },
-        { name: "AutoCare Garage", url: "#", category: "automotive", desc: "Car repair & service", comingSoon: true },
-        { name: "BikeFix Workshop", url: "#", category: "automotive", desc: "Bike service center", comingSoon: true },
-        { name: "Smart Electronics", url: "#", category: "retail", desc: "Electronics shop website", comingSoon: true },
-        { name: "Shree Furniture", url: "#", category: "retail", desc: "Furniture store website", comingSoon: true },
-        { name: "City Medical Store", url: "#", category: "retail", desc: "Pharmacy website", comingSoon: true },
-        { name: "TaxPro CA Services", url: "#", category: "professional", desc: "CA & accounting services", comingSoon: true },
-        { name: "Legal Advisor", url: "#", category: "professional", desc: "Lawyer website", comingSoon: true },
-        { name: "Secure Insurance", url: "#", category: "professional", desc: "Insurance agent website", comingSoon: true },
-        { name: "Yoga Bliss Studio", url: "#", category: "fitness", desc: "Yoga classes website", comingSoon: true },
-        { name: "Elite Gym Pro", url: "#", category: "fitness", desc: "Modern gym website", comingSoon: true },
-        { name: "Royal Wedding Planner", url: "#", category: "events", desc: "Event management website", comingSoon: true },
-        { name: "Capture Moments", url: "#", category: "events", desc: "Photography portfolio", comingSoon: true }
+        // { name: "Diagnostic Lab Pro", url: "#", category: "health", desc: "Lab test booking website", comingSoon: true },
+        // { name: "Bright Future Coaching", url: "#", category: "education", desc: "Coaching institute website", comingSoon: true },
+        // { name: "Spoken English Hub", url: "#", category: "education", desc: "English training classes", comingSoon: true },
+        // { name: "Computer Academy", url: "#", category: "education", desc: "Computer training center", comingSoon: true },
+        // { name: "Dream Homes Realty", url: "#", category: "realestate", desc: "Property listing website", comingSoon: true },
+        // { name: "Rental Connect", url: "#", category: "realestate", desc: "PG & rental listing", comingSoon: true },
+        // { name: "AutoCare Garage", url: "#", category: "automotive", desc: "Car repair & service", comingSoon: true },
+        // { name: "BikeFix Workshop", url: "#", category: "automotive", desc: "Bike service center", comingSoon: true },
+        // { name: "Smart Electronics", url: "#", category: "retail", desc: "Electronics shop website", comingSoon: true },
+        // { name: "Shree Furniture", url: "#", category: "retail", desc: "Furniture store website", comingSoon: true },
+        // { name: "City Medical Store", url: "#", category: "retail", desc: "Pharmacy website", comingSoon: true },
+        // { name: "TaxPro CA Services", url: "#", category: "professional", desc: "CA & accounting services", comingSoon: true },
+        // { name: "Legal Advisor", url: "#", category: "professional", desc: "Lawyer website", comingSoon: true },
+        // { name: "Secure Insurance", url: "#", category: "professional", desc: "Insurance agent website", comingSoon: true },
+        // { name: "Yoga Bliss Studio", url: "#", category: "fitness", desc: "Yoga classes website", comingSoon: true },
+        // { name: "Elite Gym Pro", url: "#", category: "fitness", desc: "Modern gym website", comingSoon: true },
+        // { name: "Royal Wedding Planner", url: "#", category: "events", desc: "Event management website", comingSoon: true },
+        // { name: "Capture Moments", url: "#", category: "events", desc: "Photography portfolio", comingSoon: true }
     ];
 
     const projectImages = {
@@ -79,11 +74,6 @@
         "Expense Tracker": "expense-tracker.webp",
         "Task Manager": "task-manager.webp",
         "24/7 Manager": "247-manager.webp",
-        "Blog Web": "blog-web.webp",
-        "Recite Quran": "recite-quran.webp",
-        "MCU Upcomings": "mcu-upcomings.webp",
-        "Multicomics": "multicomics.webp",
-        "Soccer Game": "soccer-game.webp",
 
         // Image sliders (array of images)
         "Roshni's Unisex Beauty Studio": [
