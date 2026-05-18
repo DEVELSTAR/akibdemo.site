@@ -30,6 +30,22 @@
         { name: "Expense Tracker", url: "https://expense.akibworks.in", category: "finance", desc: "Track income & expenses" },
         { name: "Task Manager", url: "https://task.akibdemo.site", category: "productivity", desc: "Organize tasks & to-dos" },
         { name: "24/7 Manager", url: "https://24tracker.akibdemo.site/", category: "productivity", desc: "24/7 manager website" },
+        { name: "Used Fridge", url: "https://used-fridge.akibdemo.site/", category: "retail", desc: "Used fridge marketplace" },
+
+        // Salons
+        { name: "Barber Shops", url: "https://salons.akibdemo.site/barber-shops/index.html", category: "beauty", desc: "Barber shop website" },
+        { name: "Bindu Parlor", url: "https://salons.akibdemo.site/bindu-parlor/index.html", category: "beauty", desc: "Beauty parlor website" },
+        { name: "Expert Salon", url: "https://salons.akibdemo.site/expert-salon/index.html", category: "beauty", desc: "Expert salon website" },
+        { name: "Hair N Shape", url: "https://salons.akibdemo.site/hair-n-shape/index.html", category: "beauty", desc: "Hair & shape salon" },
+        { name: "House Of Hair Salon", url: "https://salons.akibdemo.site/house-of-hair-salon/index.html", category: "beauty", desc: "House of hair salon" },
+        { name: "Mi Salon", url: "https://salons.akibdemo.site/mi-salon/index.html", category: "beauty", desc: "Mi salon website" },
+        { name: "Perfect Hair Look Mens", url: "https://salons.akibdemo.site/perfect-hair-look-mens/index.html", category: "beauty", desc: "Mens hair salon" },
+        { name: "Ray Beauty", url: "https://salons.akibdemo.site/ray-beauty/index.html", category: "beauty", desc: "Ray beauty salon" },
+        { name: "The Game Of Tools", url: "https://salons.akibdemo.site/the-game-of-tools/index.html", category: "beauty", desc: "Salon & tools website" },
+        { name: "Vanisri Beauty Salon", url: "https://salons.akibdemo.site/vanisri-beauty-salon/index.html", category: "beauty", desc: "Vanisri beauty salon" },
+        { name: "Sicissor & Mirror Salon", url: "https://salons.akibdemo.site/sicissor-&-mirror-salon/index.html", category: "beauty", desc: "Sicissor & mirror salon" },
+        { name: "Julie's Beauty", url: "https://salons.akibdemo.site/julie's-beauty/index.html", category: "beauty", desc: "Julie's beauty salon" },
+        { name: "Bouns Mens", url: "https://salons.akibdemo.site/bouns-mens/index.html", category: "beauty", desc: "Bouns mens salon" },
 
         // Coming Soon Projects
         { name: "Smart Electrician", url: "#", category: "services", desc: "Electrician service website", comingSoon: true },
@@ -74,6 +90,22 @@
         "Expense Tracker": "expense-tracker.webp",
         "Task Manager": "task-manager.webp",
         "24/7 Manager": "247-manager.webp",
+        "Used Fridge": "used-fridge.png",
+        
+        // Salons
+        "Barber Shops": "the-gentle-mens-salon.png",
+        "Bindu Parlor": "bindu-beauty.png",
+        "Expert Salon": "exper-salon.png",
+        "Hair N Shape": "hair-n-shape.png",
+        "House Of Hair Salon": "house-of-hair.png",
+        "Mi Salon": "mi-salon.png",
+        "Perfect Hair Look Mens": "perfect-hair-look.png",
+        "Ray Beauty": "ray.png",
+        "The Game Of Tools": "the-game-of-tools.png",
+        "Vanisri Beauty Salon": "vanisri.png",
+        "Sicissor & Mirror Salon": "scissor-&-mirror.png",
+        "Julie's Beauty": "julie's.png",
+        "Bouns Mens": "bouns.png",
 
         // Image sliders (array of images)
         "Roshni's Unisex Beauty Studio": [
