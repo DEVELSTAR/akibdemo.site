@@ -4,7 +4,7 @@
  * @version 1.0.0
  */
 
-(function() {
+(function () {
     'use strict';
 
     // ==========================================
@@ -15,21 +15,13 @@
     const projects = [
         // Live Projects
         { name: "Fashion Aurah", url: "https://fashionaurah.shop", category: "fashion", desc: "Online clothing store" },
-        { name: "Sana Boutique", url: "https://boutique.akibdemo.site", category: "fashion", desc: "Fashion boutique website" },
-        { name: "Roshni's Unisex Beauty Studio", url: "https://roshni.akibworks.in", category: "beauty", desc: "Beauty salon & spa website" },
         { name: "Gym Deck", url: "https://gymdeck.akibdemo.site", category: "fitness", desc: "Workout & fitness tracker" },
         { name: "Khan Welding Workshop", url: "https://atif.akibworks.in", category: "services", desc: "Welding workshop website" },
         { name: "Rakib Tailor", url: "https://rakib.akibdemo.site", category: "services", desc: "Tailoring & stitching services" },
         { name: "Punjabi Khaira Dhaba", url: "https://khaira.akibdemo.site", category: "food", desc: "Punjabi restaurant website" },
-        { name: "Healers Hospital", url: "https://hospital.akibdemo.site", category: "health", desc: "Hospital management system" },
-        { name: "Beer Bar", url: "https://arborbrew.akibdemo.site", category: "food", desc: "Bar & pub menu website" },
-        { name: "Plumber Swift Fix", url: "https://plumber.akibdemo.site", category: "services", desc: "Plumbing services website" },
         { name: "A.C. Cool Point", url: "https://adil.akibdemo.site", category: "services", desc: "AC repair & maintenance" },
         { name: "Akib Portfolio", url: "https://portfolio.akibworks.in", category: "portfolio", desc: "Developer portfolio template" },
         { name: "Neha Portfolio", url: "https://neha.akibdemo.site", category: "portfolio", desc: "Personal portfolio showcase" },
-        { name: "Expense Tracker", url: "https://expense.akibworks.in", category: "finance", desc: "Track income & expenses" },
-        { name: "Task Manager", url: "https://task.akibdemo.site", category: "productivity", desc: "Organize tasks & to-dos" },
-        { name: "24/7 Manager", url: "https://24tracker.akibdemo.site/", category: "productivity", desc: "24/7 manager website" },
         { name: "Used Fridge", url: "https://used-fridge.akibdemo.site/", category: "retail", desc: "Used fridge marketplace" },
 
         // Salons
@@ -76,22 +68,15 @@
     const projectImages = {
         // Single images
         "Fashion Aurah": "fashion-aurah.webp",
-        "Sana Boutique": "sana-boutique.webp",
         "Gym Deck": "gym-deck.webp",
         "Khan Welding Workshop": "khan-welding-workshop.webp",
         "Rakib Tailor": "rakib-tailor.webp",
         "Punjabi Khaira Dhaba": "punjabi-khaira-dhaba.webp",
-        "Healers Hospital": "healers-hospital.webp",
-        "Beer Bar": "beer-bar.webp",
-        "Plumber Swift Fix": "plumber-swift-fix.webp",
         "A.C. Cool Point": "ac-cool-point.webp",
         "Akib Portfolio": "akib-portfolio.webp",
         "Neha Portfolio": "neha-portfolio.webp",
-        "Expense Tracker": "expense-tracker.webp",
-        "Task Manager": "task-manager.webp",
-        "24/7 Manager": "247-manager.webp",
         "Used Fridge": "used-fridge.png",
-        
+
         // Salons
         "Barber Shops": "the-gentle-mens-salon.png",
         "Bindu Parlor": "bindu-beauty.png",
@@ -105,15 +90,7 @@
         "Vanisri Beauty Salon": "vanisri.png",
         "Sicissor & Mirror Salon": "scissor-&-mirror.png",
         "Julie's Beauty": "julie's.png",
-        "Bouns Mens": "bouns.png",
-
-        // Image sliders (array of images)
-        "Roshni's Unisex Beauty Studio": [
-            "roshni-unisex-beauty-studio.webp",
-            "roshni-1.webp",
-            "roshni-2.webp",
-            "roshni-3.webp"
-        ]
+        "Bouns Mens": "bouns.png"
     };
 
     // Cache DOM elements
@@ -141,7 +118,7 @@
                 <img src="images/${img}" loading="lazy" alt="${projectName} - ${idx + 1}" onerror="this.style.display='none'" />
             </div>`
         ).join('');
-        const dotsHtml = images.map((_, idx) => 
+        const dotsHtml = images.map((_, idx) =>
             `<span class="dot ${idx === 0 ? 'active' : ''}" data-index="${idx}"></span>`
         ).join('');
 
@@ -280,7 +257,7 @@
      */
     function initSmoothScroll() {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 const targetId = this.getAttribute('href');
                 if (targetId === '#') return;
 
@@ -371,7 +348,7 @@
         initSmoothScroll();
         initSliders();
 
-        console.log('AkibDemo loaded — 18 projects showcased');
+        console.log('AkibDemo loaded');
     }
 
     // Run when DOM is ready
